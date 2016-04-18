@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import classSet             from 'react-classset';
-import d3                   from 'd3/d3';
 
 var Iframe = React.createClass({
     render() {
