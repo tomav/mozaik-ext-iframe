@@ -1,0 +1,40 @@
+{
+  "name": "mozaik-ext-iframe",
+  "version": "1.0.0",
+  "description": "iFrame widgets for Mozaik dashboard",
+  "main": "./src/components/index.js",
+  "dependencies": {
+    "babelify": "^6.1.3",
+    "react-classset": "0.0.2",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "mozaik": "1.x"
+  },
+  "scripts": {},
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomav/mozaik-ext-iframe.git"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "keywords": [
+    "mozaik",
+    "iframe",
+    "dashboard",
+    "newrelic"
+  ],
+  "author": "Thomas Vial",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomav/mozaik-ext-iframe/issues"
+  },
+  "homepage": "https://github.com/tomav/mozaik-ext-iframe#readme"
+}
