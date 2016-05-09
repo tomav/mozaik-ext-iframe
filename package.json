@@ -1,6 +1,6 @@
 {
   "name": "mozaik-ext-iframe",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "iFrame widgets for Mozaik dashboard",
   "main": "./src/components/index.js",
   "dependencies": {

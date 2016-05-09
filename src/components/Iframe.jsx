@@ -18,7 +18,9 @@ var Iframe = React.createClass({
                 <div className="full_height">
                     <div className="widget__header">
                         {title}
-                        <i className="fa fa-external-link-square" />
+                        <a href={url}>
+                            <i className="fa fa-external-link-square" />
+                        </a>
                     </div>
                     {body}
                 </div>
