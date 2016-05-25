@@ -18,7 +18,7 @@ key        | required | description
 
 ```javascript
 {
-  type: 'iframe',
+  type: 'iframe.iframe',
   url: 'http://myurl.com/page.html',
   columns: 1, rows: 1, x: 0, y: 0
 }
